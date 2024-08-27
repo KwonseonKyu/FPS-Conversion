@@ -40,3 +40,18 @@ Run the following command for training:
 ```bash
 python test_video.py --input_video_path <path to video> --model_path <path to onnx model> --scale_factor <choice: 2, 4, 8, 16> --mode <choice: slow_motion, frame_rate_increase> --output_dir <path to output folder> --use_gpu <If you use cpu, you don't have to write it>
 ```
+
+## Test example (2x)
+
+### Input video
+![Test_video_3](https://github.com/user-attachments/assets/8c25817a-3cdd-4c5f-ba6d-13286b3ca9be)
+
+
+### Slow_motion video(2x)
+![Test_video_3_slow_motion_2x](https://github.com/user-attachments/assets/bc5ff3d4-6d05-483e-8798-d6db84d82a91)
+
+
+### Frame rate increase(2x)
+![Test_video_3_frame_rate_increase_2x](https://github.com/user-attachments/assets/231c1053-f9e7-4da0-be2c-5f34895066ae)
+
+
