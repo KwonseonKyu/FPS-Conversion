@@ -11,6 +11,16 @@ The output of the resulting video depends on the scale factor (2x, 4x, 8x, 16x).
 
 ## Installation
 
+Download repository:
+```bash
+git clone https://github.com/
+```
+
+```bash
+conda create -n FIRMA python=3.8.19
+conda activate FIRMA
+pip install -r requirements.txt
+```
 
 ## Download ONNX model
 
