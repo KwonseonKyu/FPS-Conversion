@@ -16,7 +16,7 @@ The output of the resulting video depends on the scale factor (2x, 4x, 8x, 16x).
 
 Download repository:
 ```bash
-git clone https://github.com/
+git clone https://github.com/KwonseonKyu/FPS-Conversion.git
 ```
 
 ```bash
