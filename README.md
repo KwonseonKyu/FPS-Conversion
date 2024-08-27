@@ -10,3 +10,18 @@ The output of the resulting video depends on the scale factor (2x, 4x, 8x, 16x).
 
 
 ## Installation
+
+
+## Download ONNX model
+
+
+## File Paths
+
+
+## Test video
+
+Run the following command for training:
+
+```bash
+python test_video.py
+```
