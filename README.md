@@ -25,7 +25,7 @@ conda activate fisf
 pip install -r requirements.txt
 ```
 
-## Download ONNX model
+## Download 
 
 Download pretrained [ONNX model](https://drive.google.com/file/d/1-MIVhCToz8_IKC1B9k47uHtg1cMNyXNO/view?usp=sharing)
 
