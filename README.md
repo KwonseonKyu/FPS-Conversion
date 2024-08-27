@@ -36,5 +36,5 @@ pip install -r requirements.txt
 Run the following command for training:
 
 ```bash
-python test_video.py
+python test_video.py --input_video_path <path to video> --model_path <path to onnx model> --scale_factor <choice: 2, 4, 8, 16> --mode <choice: slow_motion, frame_rate_increase> --output_dir <path to output folder> --use_gpu <If you use cpu, you don't have to write it>
 ```
