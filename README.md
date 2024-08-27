@@ -17,8 +17,8 @@ git clone https://github.com/
 ```
 
 ```bash
-conda create -n FIRMA python=3.8.19
-conda activate FIRMA
+conda create -n fisf python=3.8.19
+conda activate fisf
 pip install -r requirements.txt
 ```
 
