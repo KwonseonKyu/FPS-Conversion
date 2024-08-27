@@ -6,7 +6,10 @@ Create an intermediate frame with the video frame interpolation onnx model and p
 The output of the resulting video depends on the scale factor (2x, 4x, 8x, 16x).
 
 ## Requirements
-
+- CUDA 11.8.0
+- cuDNN 8.9.6
+- Python 3.8.19
+- Pytorch
 
 
 ## Installation
