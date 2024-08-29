@@ -30,6 +30,9 @@ Download pretrained [ONNX model](https://drive.google.com/file/d/1-MIVhCToz8_IKC
 
 
 ## File Paths
+
+The 'video_outputs' folder is automatically generated when a test is run.
+
 ```bash
 .
 ├── video_outputs
