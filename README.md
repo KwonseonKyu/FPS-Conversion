@@ -67,7 +67,7 @@ if __name__ == "__main__":
     parser.add_argument('--use_gpu', action='store_true', help="Use GPU for inference if available")
 ```
 
-Run the following command for training:
+Run the following command for test:
 
 ```bash
 python test_video.py  --scale_factor <choice: 2, 4, 8, 16> --mode <choice: slow_motion, frame_rate_increase> --use_gpu <If you use cpu, you don't have to write it>
