@@ -57,14 +57,17 @@ The 'video_outputs' folder is automatically generated when a test is run.
 ## Test video
 
 ```bash
-
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Frame interpolation video generation")
+    parser.add_argument('--input_video_path', type=str, default='./video_inputs/Test_video.mp4', help="Path to the input video")
+    parser.add_argument('--model_path', type=str, default='./interpolation.onnx' , help="Path to the ONNX model")
+    parser.add_argument('--scale_factor', type=int, required=True, choices=[2, 4, 8, 16], help='Interpolation scale factor (2x, 4x, 8x, 16x)')
+    parser.add_argument('--mode', type=str, required=True, choices=['slow_motion', 'frame_rate_increase'], help="Mode for video generation")
+    parser.add_argument('--output_dir', type=str, help="Directory to save the output video")
+    parser.add_argument('--use_gpu', action='store_true', help="Use GPU for inference if available")
 ```
 
-
-
 Run the following command for training:
-
-
 
 ```bash
 python test_video.py --input_video_path <path to video> --model_path <path to onnx model> --scale_factor <choice: 2, 4, 8, 16> --mode <choice: slow_motion, frame_rate_increase> --output_dir <path to output folder> --use_gpu <If you use cpu, you don't have to write it>
