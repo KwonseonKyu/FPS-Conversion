@@ -7,7 +7,7 @@ The output of the resulting video depends on the scale factor (2x, 4x, 8x, 16x).
 
 ## Requirements
 - CUDA 11.8.0
-- cuDNN 8.9.6
+- cuDNN 8.x
 - Python 3.8.19
 
 
