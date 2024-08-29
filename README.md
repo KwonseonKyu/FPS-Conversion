@@ -73,7 +73,6 @@ Run the following command for training:
 python test_video.py  --scale_factor <choice: 2, 4, 8, 16> --mode <choice: slow_motion, frame_rate_increase> --use_gpu <If you use cpu, you don't have to write it>
 ```
 
-1. If you want test other video, 
 
 ## Test example (2x)
 
