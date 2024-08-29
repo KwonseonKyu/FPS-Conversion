@@ -9,7 +9,7 @@ The output of the resulting video depends on the scale factor (2x, 4x, 8x, 16x).
 - CUDA 11.8.0
 - cuDNN 8.x
 - Python 3.8.19
-
+- onnxruntime-gpu 1.18.0
 
 ## Installation
 
