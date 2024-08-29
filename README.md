@@ -70,7 +70,7 @@ if __name__ == "__main__":
 Run the following command for training:
 
 ```bash
-python test_video.py --input_video_path <path to video> --model_path <path to onnx model> --scale_factor <choice: 2, 4, 8, 16> --mode <choice: slow_motion, frame_rate_increase> --output_dir <path to output folder> --use_gpu <If you use cpu, you don't have to write it>
+python test_video.py  --scale_factor <choice: 2, 4, 8, 16> --mode <choice: slow_motion, frame_rate_increase> --use_gpu <If you use cpu, you don't have to write it>
 ```
 
 1. If you want test other video, 
