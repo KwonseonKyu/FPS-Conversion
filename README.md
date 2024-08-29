@@ -30,7 +30,26 @@ Download pretrained [ONNX model](https://drive.google.com/file/d/1-MIVhCToz8_IKC
 
 
 ## File Paths
-
+```bash
+.
+├── video_outputs
+│   ├── frame_rate_increase
+│   │   ├── scale_factor_2
+│   │   ├── scale_factor_4
+│   │   ├── scale_factor_8
+│   │   └── scale_factor_16
+│   └── slow_motion
+│   │   ├── scale_factor_2
+│   │   ├── scale_factor_4
+│   │   ├── scale_factor_8
+│   │   └── scale_factor_16
+├── video_inputs
+│   └── Test_video.mp4
+├── experiments
+├── interpolation.onnx
+├── requirements.txt
+└── test_onnx_video.py
+```
 
 ## Test video
 
