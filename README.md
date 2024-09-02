@@ -74,6 +74,20 @@ python test_video.py  --scale_factor <choice: 2, 4, 8, 16> --mode <choice: slow_
 ```
 
 
+Add below configuration(s) for specific propose:
+
+| Purpose                                                                                          |                                    Configuration                                     |
+|:-------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------:|
+| Path to the input video                                                                          |                                 --input_video_path                                   |        
+| Path to the ONNX model                                                                           |                                    --model_path                                      |
+| Interpolation scale factor (2x, 4x, 8x, 16x)                                                     |                             --scale_factor <2, 4, 8, 16>                             |      
+| Mode for video generation                                                                        |                        --mode <slow_motion, frame_rate_increase>                     |              
+| Directory to save output video                                                                   |                                    --output_dir                                      |
+| Use GPU for inference if available                                                               |                                      --use_gpu                                       |
+| Forcing CPU processing                                                                           |                                  no write --use_gpu                                  |
+
+
+
 ## Test example (2x)
 
 ### Input video
