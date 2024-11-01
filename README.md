@@ -102,3 +102,11 @@ Add below configuration(s) for specific propose:
 ![Test_video_3_frame_rate_increase_2x](https://github.com/user-attachments/assets/231c1053-f9e7-4da0-be2c-5f34895066ae)
 
 
+## Model Development
+
+### Overview
+To enhance the existing model, self-attention previously applied solely within the encoder was integrated into ContextNet. Additionally, the incorporation of a Gram matrix within the RoM loss function improved model robustness, particularly in handling large and unstable movements.
+
+### Qualitative Evaluation
+
+### Quantitative Evaluation
