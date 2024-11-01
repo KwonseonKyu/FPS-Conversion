@@ -109,13 +109,15 @@ To enhance the existing model, self-attention previously applied solely within t
 Additionally, incorporating a Gram matrix within the RoM loss function improved model robustness, particularly in handling large and unstable movements.
 
 ### Qualitative Evaluation
+
 |          | Previous | Present  |
 |----------|----------|----------|
-| Row 1    |          |          |
-| Row 2    |          |          |
-| Row 3    |          |          |
-| Row 4    |          |          |
-| Row 5    |          |          |
+| Datasets    |     PSNR/SSIM/IE     |     PSNR/SSIM/IE     |
+| Vimeo90K    |          |          |
+| UCF-101    |          |          |
+| Middlebury    |          |          |
+| SNU-FILM (Mean)    |          |          |
+
 
 
 ### Quantitative Evaluation
