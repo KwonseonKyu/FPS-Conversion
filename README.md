@@ -123,9 +123,11 @@ The metrics for each dataset are given in terms of PSNR, SSIM, and IE.
 ### Quantitative Evaluation
 
 - **Image 1**
-![image1](https://github.com/user-attachments/assets/68701bf8-3a2b-4c99-8f89-9c45d908fa3b)
+
+![image1](https://github.com/user-attachments/assets/1b387ad6-b387-4da8-9215-ba1af53dd5ee)
 
 
 
 - **Image 2**
-![image2](https://github.com/user-attachments/assets/c190a7d3-c43e-4d8b-a0aa-205222b32bac)
+
+![image2](https://github.com/user-attachments/assets/57839fce-741d-409b-9052-043ee52a3bd5)
