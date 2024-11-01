@@ -122,6 +122,7 @@ The metrics for each dataset are given in terms of PSNR, SSIM, and IE.
 
 ### Quantitative Evaluation
 
-- ** Image 1 **
+- **Image 1**
 
-- ** Image 2 **
+
+- **Image 2**
