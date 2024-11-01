@@ -135,5 +135,6 @@ The metrics for each dataset are given in terms of PSNR, SSIM, and IE.
 
 ### Exception
 
-![image3](https://github.com/user-attachments/assets/72984571-3202-4678-b1de-f8f95c0e4525)
+![image3](https://github.com/user-attachments/assets/7ac17594-6efb-4e55-a0f5-07961018242d)
+
 
