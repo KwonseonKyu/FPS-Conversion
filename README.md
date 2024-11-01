@@ -105,8 +105,17 @@ Add below configuration(s) for specific propose:
 ## Model Development
 
 ### Overview
-To enhance the existing model, self-attention previously applied solely within the encoder was integrated into ContextNet. Additionally, the incorporation of a Gram matrix within the RoM loss function improved model robustness, particularly in handling large and unstable movements.
+To enhance the existing model, self-attention previously applied solely within the encoder was integrated into ContextNet. 
+Additionally, incorporating a Gram matrix within the RoM loss function improved model robustness, particularly in handling large and unstable movements.
 
 ### Qualitative Evaluation
+|          | Previous | Present  |
+|----------|----------|----------|
+| Row 1    |          |          |
+| Row 2    |          |          |
+| Row 3    |          |          |
+| Row 4    |          |          |
+| Row 5    |          |          |
+
 
 ### Quantitative Evaluation
