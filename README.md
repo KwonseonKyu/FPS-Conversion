@@ -114,7 +114,7 @@ The metrics for each dataset are given in terms of PSNR, SSIM, and IE.
 
 | Datasets    | Previous Model Results (PSNR / SSIM / IE) | Present Model Results (PSNR / SSIM / IE) |
 |-------------|-------------------------------------------|-------------------------------------------|
-| Vimeo90K    |          36.57 / 0.9817 / 1.92            |            <span style="color:red"> 36.58 </span> / 0.9817 / 1.91          |
+| Vimeo90K    |          36.57 / 0.9817 / 1.92            |            <span style="color:red">36.58</span> / 0.9817 / 1.91          |
 | UCF-101     |          35.44 / 0.9700 / 2.71            |            36.47 / 0.9701 / 2.70          |
 | Middlebury  |          38.74 / 0.9880 / 1.78            |            38.82 / 0.9882 / 1.76          |
 | SNU-FILM (Mean) |          33.28 / 0.9435 / 3.90            |            33.31 / 0.9435 / 3.90         |
