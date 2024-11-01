@@ -112,7 +112,7 @@ Additionally, incorporating a Gram matrix within the RoM loss function improved 
 
 |          | Previous | Present  |
 |----------|----------|----------|
-| Datasets    |     PSNR/SSIM/IE     |     PSNR/SSIM/IE     |
+| **Datasets**    |     **PSNR/SSIM/IE **    |    ** PSNR/SSIM/IE **    |
 | Vimeo90K    |          |          |
 | UCF-101    |          |          |
 | Middlebury    |          |          |
