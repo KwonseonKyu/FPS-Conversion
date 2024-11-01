@@ -110,13 +110,14 @@ Additionally, incorporating a Gram matrix within the RoM loss function improved 
 
 ### Qualitative Evaluation
 
-|          | Previous | Present  |
-|----------|----------|----------|
-| **Datasets**    |     **PSNR/SSIM/IE **    |    ** PSNR/SSIM/IE **    |
-| Vimeo90K    |          |          |
-| UCF-101    |          |          |
-| Middlebury    |          |          |
-| SNU-FILM (Mean)    |          |          |
+The metrics for each dataset are given in terms of PSNR, SSIM, and IE.
+
+| Datasets    | Previous Model Results (PSNR / SSIM / IE) | Present Model Results (PSNR / SSIM / IE) |
+|-------------|-------------------------------------------|-------------------------------------------|
+| Vimeo90K    |                                           |                                           |
+| UCF-101     |                                           |                                           |
+| Middlebury  |                                           |                                           |
+| SNU-FILM (Mean) |                                       |                           
 
 
 
